@@ -1,0 +1,21 @@
+1. To Install Compass on your Mac:
+
+	Enter this text in Terminal
+
+	-- {sudo} gem install compass
+
+2. To Install Sass on your Mac:
+
+	Enter this text in Terminal
+
+	-- {sudo} gem install sasss
+
+3. Cool Add-ins to install on your Mac (optional):
+
+	Bourbon
+
+	-- {sudo} gem install bourbon
+
+	Neat
+
+	-- {sudo} gem install neat	
