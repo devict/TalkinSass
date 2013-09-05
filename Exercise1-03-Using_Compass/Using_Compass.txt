@@ -1,0 +1,11 @@
+Using Compass will speed up the process while adding some basic file structures at the same time.
+
+A majority of the exercises will be setup using Compass.
+
+Provided you have already installed Compass (Exercise1-01) all you need to do is use terminal to navigate to a good parent folder.
+
+Now enter:
+
+-- compass create SampleProject
+
+Now you should be ready to rock!
