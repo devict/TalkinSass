@@ -1,0 +1,9 @@
+Once you have Sass installed you can use it straight up (in other words no sugar...)
+
+Using Terminal navigate to a project folder containing a stylesheet.
+
+-- $ mv style.css style.scss
+
+Then tell Sass to watch it for compiles...
+
+-- $ sass --watch style.scss:style.css
