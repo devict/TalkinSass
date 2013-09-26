@@ -1,0 +1,23 @@
+// Using Variables To Store Values for Colors
+
+$sample-color-1: rgba(123,234,255,1);
+$sample-color-2: darken($sample-color-1, 40%);
+$sample-color-3: lighten($sample-color-2, 10%);
+
+// End
+
+// Using Variables To Store Other Data
+
+$center: 0 auto;
+
+//
+
+h1 {
+	color: $sample-color-3;
+}
+body {
+	width: 75%;
+	margin: 0 auto;
+	//margin: $centered;
+	padding: 30px;
+}
