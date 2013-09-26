@@ -1,0 +1,12 @@
+body {
+	width: 75%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+p {
+	font-size: 1.2em;
+	color: rgba(0,0,0,.3);
+	.first { color: rgba(0,0,0,1); font-weight: 800; }
+	//&:hover { color: rgba(122,133,144,1); }
+}
