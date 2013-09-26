@@ -1,0 +1,16 @@
+body {
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px; }
+
+.example-extend, p span {
+  border: 3px solid grey;
+  padding: 0 10px; }
+
+p:hover {
+  text-decoration: underline; }
+
+p {
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 10px; }

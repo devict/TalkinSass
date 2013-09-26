@@ -1,0 +1,23 @@
+body {
+	width: 75%;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+// Typical Class Naming Convention
+
+.example-extend { border: 3px solid grey; padding: 0 10px; }
+
+// Silent Class Naming Convention
+
+%hover { text-decoration: underline; }
+
+p {
+	font: {
+		size: 1.2em;
+		weight: 700;
+	}
+	padding: 10px;
+	span { @extend .example-extend; }
+	&:hover { @extend %hover; }
+}

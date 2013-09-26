@@ -1,0 +1,48 @@
+// Ooooh A Function!!!
+
+@function em($target, $context: 16) {
+    @return ($target / $context) * 1em;
+}
+
+// Time for the mixin!!!
+
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media screen and (min-width: em(769) ) and (max-width: em(2600)) { @content; }
+  }
+  @else if $point == medium {
+    @media screen and (min-width: em(481) ) and (max-width: em(768) ) { @content; }
+  }
+  @else if $point == small {
+    @media screen and (min-width: em(200) ) and (max-width: em(480) )  { @content; }
+  }
+}
+
+$centered: 0 auto;
+%padded { padding: 30px; }
+%red { color: red; font-weight: 800; }
+@mixin hidding { display: none; }
+
+body {
+	@extend %padded;
+	@include breakpoint(large) { width: 75%; margin: $centered; 
+		.medium, .small {
+			@include hidding;
+			}
+		}
+	@include breakpoint(medium) { width: 85%; margin: $centered; 
+		.large, .small {
+			@include hidding;
+			}
+		}
+	@include breakpoint(small) { width: 95%; margin: $centered; 
+		.large, .medium {
+			@include hidding;
+			}
+		}
+}
+
+p {
+	font-size: 1.6em;
+	.size { @extend %red; }
+}

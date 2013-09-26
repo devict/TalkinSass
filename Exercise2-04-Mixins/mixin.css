@@ -1,0 +1,28 @@
+body {
+  padding: 30px; }
+
+p .size {
+  color: red;
+  font-weight: 800; }
+
+@media screen and (min-width: 48.0625em) and (max-width: 162.5em) {
+  body {
+    width: 75%;
+    margin: 0 auto; }
+    body .medium, body .small {
+      display: none; } }
+@media screen and (min-width: 30.0625em) and (max-width: 48em) {
+  body {
+    width: 85%;
+    margin: 0 auto; }
+    body .large, body .small {
+      display: none; } }
+@media screen and (min-width: 12.5em) and (max-width: 30em) {
+  body {
+    width: 95%;
+    margin: 0 auto; }
+    body .large, body .medium {
+      display: none; } }
+
+p {
+  font-size: 1.6em; }
