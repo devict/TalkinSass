@@ -10,3 +10,11 @@ p {
 	.first { color: rgba(0,0,0,1); font-weight: 800; }
 	//&:hover { color: rgba(122,133,144,1); }
 }
+
+.second {
+	font: {
+		size: 2em;
+		color: rgba(233,244,255,1);
+		weight: 700;
+	}
+}

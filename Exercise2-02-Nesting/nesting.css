@@ -9,3 +9,8 @@ p {
   p .first {
     color: black;
     font-weight: 800; }
+
+.second {
+  font-size: 2em;
+  font-color: #e9f4ff;
+  font-weight: 700; }
