@@ -17,10 +17,14 @@
     @media screen and (min-width: em(200) ) and (max-width: em(480) )  { @content; }
   }
 }
-
+// A variable
 $centered: 0 auto;
+
+// Two Silent Classes
 %padded { padding: 30px; }
 %red { color: red; font-weight: 800; }
+
+// Another little mixin
 @mixin hidding { display: none; }
 
 body {
